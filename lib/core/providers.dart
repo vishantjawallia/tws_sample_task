@@ -11,7 +11,7 @@ class ProviderInjector {
   ];
 
   static List<SingleChildWidget> _independentServices = [
-    // Provider.value(value: locator<NavigatorService>()),
+    Provider.value(value: locator<NavigatorService>()),
   ];
 
   static List<SingleChildWidget> _dependentServices = [];
